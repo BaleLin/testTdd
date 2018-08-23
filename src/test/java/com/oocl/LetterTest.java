@@ -17,4 +17,14 @@ public class LetterTest {
         //then
         Assert.assertEquals(Arrays.asList("a"),output);
     }
+
+    @Test
+    public void should_return_ab_ba_when_give_ab(){
+        //given
+        String input = "ab";
+        //when
+        List<String> output =  Letter.permute(input);
+        //then
+        Assert.assertEquals(Arrays.asList("ab","ba"),output);
+    }
 }
