@@ -6,22 +6,23 @@ import java.util.List;
 
 public class Letter {
     public static List<String> permute(String input) {
-        if(input.length()==2){
-            return Arrays.asList(input,input.substring(1,2)+input.substring(0,1));
-        }
-        if(input.length()==3){
+
+        if (input.length() >1) {
             List<String> permutation = new ArrayList<String>();
 
-            permutation.add(input);
-            permutation.add(input.substring(0,1)+input.substring(2,3)+input.substring(1,2));
-            permutation.add(input.substring(1,2)+input.substring(0,1)+input.substring(2,3));
-            permutation.add(input.substring(1,2)+input.substring(2,3)+input.substring(0,1));
-            permutation.add(input.substring(2,3)+input.substring(0,1)+input.substring(1,2));
-            permutation.add(input.substring(2,3)+input.substring(1,2)+input.substring(0,1));
 
+            for (int index = 0; index < input.length(); index++) {
+                List<String> temp = permute(removeCharByIndex(input, index));
+                for (int j = 0; j < temp.size(); j++) {
+                    permutation.add(input.substring(index, index + 1) + temp.get(j));
+                }
+            }
             return permutation;
-
         }
         return Arrays.asList(input);
+    }
+
+    private static String removeCharByIndex(String input, int index) {
+        return input.substring(0, index) + input.substring(index + 1);
     }
 }

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c82ad176-0fd1-4e56-853e-6e9eb036178b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c82ad176-0fd1-4e56-853e-6e9eb036178b" name="Default" comment="[bale,quinn]implement and pass test:task3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/task.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LetterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LetterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="279">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,13 +49,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Letter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Letter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oocl/Letter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="198">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#380#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -408,7 +407,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534995823150</updated>
-      <workItem from="1534995826257" duration="5983000" />
+      <workItem from="1534995826257" duration="7217000" />
     </task>
     <task id="LOCAL-00001" summary="[bale,quinn]write test:task1">
       <created>1535003518312</created>
@@ -431,37 +430,50 @@
       <option name="project" value="LOCAL" />
       <updated>1535003880702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[bale,quinn]implement and pass test:task3">
+      <created>1535004281410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535004281410</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="arrayTest_should_ - 2018.08.23 at 12h 46m 49s.xml">
-      <configuration name="arrayTest.should_" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest_should_return_a_when_give_a_letter - 2018.08.23 at 13h 50m 21s.xml">
-      <configuration name="LetterTest.should_return_a_when_give_a_letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest_should_return_a_when_give_a_letter - 2018.08.23 at 13h 50m 43s.xml">
-      <configuration name="LetterTest.should_return_a_when_give_a_letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest_should_return_a_when_give_a_letter - 2018.08.23 at 13h 52m 47s.xml">
-      <configuration name="LetterTest.should_return_a_when_give_a_letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest - 2018.08.23 at 13h 54m 49s.xml">
+    <history-entry file="LetterTest - 2018.08.23 at 13h 57m 38s.xml">
       <configuration name="LetterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterTest_should_return_ab_ba_when_give_ab - 2018.08.23 at 13h 57m 04s.xml">
-      <configuration name="LetterTest.should_return_ab_ba_when_give_ab" configurationId="JUnit" />
+    <history-entry file="LetterTest - 2018.08.23 at 14h 00m 59s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterTest_should_return_ab_ba_when_give_ab - 2018.08.23 at 13h 57m 24s.xml">
-      <configuration name="LetterTest.should_return_ab_ba_when_give_ab" configurationId="JUnit" />
+    <history-entry file="LetterTest - 2018.08.23 at 14h 04m 20s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LetterTest - 2018.08.23 at 13h 57m 38s.xml">
+    <history-entry file="LetterTest - 2018.08.23 at 14h 08m 09s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 11m 03s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 12m 15s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 12m 54s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 17m 11s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 17m 43s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 20m 18s.xml">
       <configuration name="LetterTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5983000" />
+    <option name="totallyTimeSpent" value="7217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -476,12 +488,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25324675" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -507,13 +519,24 @@
     <MESSAGE value="[bale,quinn]write test:task1" />
     <MESSAGE value="[bale,quinn]implement and pass test:task1" />
     <MESSAGE value="[bale,quinn]implement and pass test:task2" />
-    <option name="LAST_COMMIT_MESSAGE" value="[bale,quinn]implement and pass test:task2" />
+    <MESSAGE value="[bale,quinn]implement and pass test:task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="[bale,quinn]implement and pass test:task3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,20 +552,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oocl/Letter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#380#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
