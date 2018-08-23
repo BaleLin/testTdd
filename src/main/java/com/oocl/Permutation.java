@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class Letter {
+public class Permutation {
     public static List<String> permute(String input) {
 
         if (input.length() == 1) {

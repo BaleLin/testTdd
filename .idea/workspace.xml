@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c82ad176-0fd1-4e56-853e-6e9eb036178b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/task.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/PermutationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LetterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java">
+      <file leaf-file-name="PermutationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/oocl/PermutationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="1232">
+              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,19 +42,19 @@
         <entry file="file://$PROJECT_DIR$/src/task.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
-                <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="47" />
+              <first_editor relative-caret-position="396">
+                <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Letter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/oocl/Letter.java">
+      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oocl/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="154">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#380#388#0" expanded="true" />
@@ -119,9 +121,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/arrayTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LetterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" />
         <option value="$PROJECT_DIR$/src/task.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" />
       </list>
     </option>
   </component>
@@ -253,11 +255,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LetterTest">
+  <component name="RunManager" selected="JUnit.PermutationTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LetterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testTdd" />
       <extension name="coverage">
         <pattern>
@@ -268,7 +270,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.LetterTest" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.PermutationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -280,12 +282,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LetterTest.should_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationTest.should_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testTdd" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.LetterTest" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.PermutationTest" />
       <option name="METHOD_NAME" value="should_" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -297,7 +299,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LetterTest.should_return_a_when_give_a_letter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationTest.should_return_a_when_give_a_letter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testTdd" />
       <extension name="coverage">
         <pattern>
@@ -308,7 +310,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.LetterTest" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.PermutationTest" />
       <option name="METHOD_NAME" value="should_return_a_when_give_a_letter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -320,7 +322,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LetterTest.should_return_ab_ba_when_give_ab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationTest.should_return_ab_ba_when_give_ab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testTdd" />
       <extension name="coverage">
         <pattern>
@@ -331,8 +333,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.oocl" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.LetterTest" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.PermutationTest" />
       <option name="METHOD_NAME" value="should_return_ab_ba_when_give_ab" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PermutationTest.should_return_permutation_size_120_when_give_abcde" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testTdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.PermutationTest" />
+      <option name="METHOD_NAME" value="should_return_permutation_size_120_when_give_abcde" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -382,17 +407,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LetterTest.should_" />
-      <item itemvalue="JUnit.LetterTest.should_return_a_when_give_a_letter" />
-      <item itemvalue="JUnit.LetterTest" />
-      <item itemvalue="JUnit.LetterTest.should_return_ab_ba_when_give_ab" />
+      <item itemvalue="JUnit.PermutationTest.should_" />
+      <item itemvalue="JUnit.PermutationTest.should_return_a_when_give_a_letter" />
+      <item itemvalue="JUnit.PermutationTest" />
+      <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_give_ab" />
+      <item itemvalue="JUnit.PermutationTest.should_return_permutation_size_120_when_give_abcde" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LetterTest" />
-        <item itemvalue="JUnit.LetterTest.should_return_ab_ba_when_give_ab" />
-        <item itemvalue="JUnit.LetterTest.should_return_a_when_give_a_letter" />
-        <item itemvalue="JUnit.LetterTest.should_" />
+        <item itemvalue="JUnit.PermutationTest" />
+        <item itemvalue="JUnit.PermutationTest.should_return_permutation_size_120_when_give_abcde" />
+        <item itemvalue="JUnit.PermutationTest.should_return_ab_ba_when_give_ab" />
+        <item itemvalue="JUnit.PermutationTest.should_return_a_when_give_a_letter" />
+        <item itemvalue="JUnit.PermutationTest.should_" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +433,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534995823150</updated>
-      <workItem from="1534995826257" duration="7502000" />
+      <workItem from="1534995826257" duration="8301000" />
     </task>
     <task id="LOCAL-00001" summary="[bale,quinn]write test:task1">
       <created>1535003518312</created>
@@ -443,28 +470,24 @@
       <option name="project" value="LOCAL" />
       <updated>1535005339107</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[bale,quinn]refactor version2">
+      <created>1535005592480</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535005592480</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[bale,quinn]pass task 4">
+      <created>1535005722541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535005722541</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LetterTest - 2018.08.23 at 14h 04m 20s.xml">
-      <configuration name="LetterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest - 2018.08.23 at 14h 08m 09s.xml">
-      <configuration name="LetterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest - 2018.08.23 at 14h 11m 03s.xml">
-      <configuration name="LetterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest - 2018.08.23 at 14h 12m 15s.xml">
-      <configuration name="LetterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest - 2018.08.23 at 14h 12m 54s.xml">
-      <configuration name="LetterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest - 2018.08.23 at 14h 17m 11s.xml">
-      <configuration name="LetterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LetterTest - 2018.08.23 at 14h 17m 43s.xml">
       <configuration name="LetterTest" configurationId="JUnit" />
     </history-entry>
@@ -477,9 +500,27 @@
     <history-entry file="LetterTest - 2018.08.23 at 14h 23m 53s.xml">
       <configuration name="LetterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 26m 19s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 28m 00s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 28m 13s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest_should_return_permutation_size_120_when_give_abcde - 2018.08.23 at 14h 30m 52s.xml">
+      <configuration name="LetterTest.should_return_permutation_size_120_when_give_abcde" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest_should_return_permutation_size_120_when_give_abcde - 2018.08.23 at 14h 30m 57s.xml">
+      <configuration name="LetterTest.should_return_permutation_size_120_when_give_abcde" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 31m 04s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7502000" />
+    <option name="totallyTimeSpent" value="8301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -494,12 +535,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25324675" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25324675" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -527,7 +568,9 @@
     <MESSAGE value="[bale,quinn]implement and pass test:task2" />
     <MESSAGE value="[bale,quinn]implement and pass test:task3" />
     <MESSAGE value="[bale,quinn]refactor version1" />
-    <option name="LAST_COMMIT_MESSAGE" value="[bale,quinn]refactor version1" />
+    <MESSAGE value="[bale,quinn]refactor version2" />
+    <MESSAGE value="[bale,quinn]pass task 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="[bale,quinn]pass task 4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -537,30 +580,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oocl/LetterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/task.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="396">
+            <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oocl/PermutationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="1232">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/task.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oocl/Letter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oocl/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#380#388#0" expanded="true" />

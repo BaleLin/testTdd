@@ -3,17 +3,16 @@ package com.oocl;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
-public class LetterTest {
+public class PermutationTest {
     @Test
     public void should_return_a_when_give_a_letter(){
         //given
         String input = "a";
         //when
-        List<String> output =  Letter.permute(input);
+        List<String> output =  Permutation.permute(input);
         //then
         Assert.assertEquals(Arrays.asList("a"),output);
     }
@@ -23,7 +22,7 @@ public class LetterTest {
         //given
         String input = "ab";
         //when
-        List<String> output =  Letter.permute(input);
+        List<String> output =  Permutation.permute(input);
         //then
         Assert.assertEquals(Arrays.asList("ab","ba"),output);
     }
@@ -33,7 +32,7 @@ public class LetterTest {
         //given
         String input = "abc";
         //when
-        List<String> output =  Letter.permute(input);
+        List<String> output =  Permutation.permute(input);
         //then
         Assert.assertEquals(Arrays.asList("abc","acb","bac","bca","cab","cba"),output);
     }
@@ -43,8 +42,18 @@ public class LetterTest {
         //given
         String input = "abcd";
         //when
-        List<String> output =  Letter.permute(input);
+        List<String> output =  Permutation.permute(input);
         //then
         Assert.assertEquals(24,output.size());
+    }
+
+    @Test
+    public void should_return_permutation_size_120_when_give_abcde(){
+        //given
+        String input = "abcde";
+        //when
+        List<String> output =  Permutation.permute(input);
+        //then
+        Assert.assertEquals(120,output.size());
     }
 }
