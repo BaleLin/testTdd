@@ -1,9 +1,10 @@
 package com.oocl;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Letter {
     public static List<String> permute(String input) {
-        return null;
+        return Arrays.asList(input);
     }
 }
