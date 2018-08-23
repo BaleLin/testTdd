@@ -27,4 +27,14 @@ public class LetterTest {
         //then
         Assert.assertEquals(Arrays.asList("ab","ba"),output);
     }
+
+    @Test
+    public void should_return_abc_acb_bac_bca_cab_cba_when_give_abc(){
+        //given
+        String input = "abc";
+        //when
+        List<String> output =  Letter.permute(input);
+        //then
+        Assert.assertEquals(Arrays.asList("abc","acb","bac","bca","cab","cba"),output);
+    }
 }
