@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c82ad176-0fd1-4e56-853e-6e9eb036178b" name="Default" comment="[bale,quinn]implement and pass test:task3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c82ad176-0fd1-4e56-853e-6e9eb036178b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Letter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="Letter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oocl/Letter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="88">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#380#388#0" expanded="true" />
@@ -407,7 +406,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534995823150</updated>
-      <workItem from="1534995826257" duration="7217000" />
+      <workItem from="1534995826257" duration="7502000" />
     </task>
     <task id="LOCAL-00001" summary="[bale,quinn]write test:task1">
       <created>1535003518312</created>
@@ -437,16 +436,17 @@
       <option name="project" value="LOCAL" />
       <updated>1535004281410</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[bale,quinn]refactor version1">
+      <created>1535005339107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535005339107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LetterTest - 2018.08.23 at 13h 57m 38s.xml">
-      <configuration name="LetterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterTest - 2018.08.23 at 14h 00m 59s.xml">
-      <configuration name="LetterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LetterTest - 2018.08.23 at 14h 04m 20s.xml">
       <configuration name="LetterTest" configurationId="JUnit" />
     </history-entry>
@@ -471,9 +471,15 @@
     <history-entry file="LetterTest - 2018.08.23 at 14h 20m 18s.xml">
       <configuration name="LetterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 21m 33s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterTest - 2018.08.23 at 14h 23m 53s.xml">
+      <configuration name="LetterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7217000" />
+    <option name="totallyTimeSpent" value="7502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -520,7 +526,8 @@
     <MESSAGE value="[bale,quinn]implement and pass test:task1" />
     <MESSAGE value="[bale,quinn]implement and pass test:task2" />
     <MESSAGE value="[bale,quinn]implement and pass test:task3" />
-    <option name="LAST_COMMIT_MESSAGE" value="[bale,quinn]implement and pass test:task3" />
+    <MESSAGE value="[bale,quinn]refactor version1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[bale,quinn]refactor version1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -552,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oocl/Letter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="88">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#380#388#0" expanded="true" />

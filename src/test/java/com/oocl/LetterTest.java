@@ -37,4 +37,14 @@ public class LetterTest {
         //then
         Assert.assertEquals(Arrays.asList("abc","acb","bac","bca","cab","cba"),output);
     }
+
+    @Test
+    public void should_return_permutation_size_24_when_give_abcd(){
+        //given
+        String input = "abcd";
+        //when
+        List<String> output =  Letter.permute(input);
+        //then
+        Assert.assertEquals(24,output.size());
+    }
 }
